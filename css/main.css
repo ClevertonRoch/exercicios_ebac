@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+    padding: 8px 16px;
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: aliceblue;
+}
+
+.container h2 {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 8px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    background-color: #fff;
+}
+
+table thead tr {
+    background-color: #065cdd;
+}
+
+table tr th {
+    padding: 16px;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+}
+
+table tr td {
+    padding: 16px;
+    font-size: 18px;
+    font-style: normal;
+    border-bottom: 1px rgb(206, 204, 109) solid;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-register {
+    background-color: #d3dae6b9;
+    padding: 20px;
+}
+
+#form-register h2 {
+    color: #000;
+}
+
+form input {
+    width: 38%;
+    max-width: 1280px;
+    padding: 8px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+form input:focus {
+   
+    border-bottom: 1px #0448ad solid;
+    border-left: 1px #0448ad solid;
+    
+}
+
+form button {
+    width: 20%;
+    cursor: pointer;
+    background-color: #065cdd;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+form button:hover {
+    background-color: #0448ad;
+ }
+ 
+
+
+
