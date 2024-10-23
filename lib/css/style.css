@@ -1,0 +1,60 @@
+header {
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-image: url(/public/img/noite-5114501_1920.jpg);
+    z-index: 1;
+}
+
+section#moto,
+section#carro {
+    padding-top: 70px;
+}
+
+#moto img,
+#carro img {
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel {
+    height: 500px;
+}
+
+.carousel-inner {
+    max-height: 100%;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+    z-index: 0;
+}
+
+
+@media (max-width: 768px) {
+    .slide img {
+        height: 300px; /* Altura ajustada para telas menores */
+        
+    }
+
+    .carousel {
+        height: 270px;
+    }
+}
+
+
+
+
