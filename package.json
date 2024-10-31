@@ -1,0 +1,15 @@
+{
+  "name": "pratique-sass",
+  "version": "1.0.0",
+  "description": "praticando o conteudo do módulo sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cleverton Rocha",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.80.5"
+  }
+}
