@@ -1,0 +1,20 @@
+{
+  "name": "pratique-gulp",
+  "version": "1.0.0",
+  "description": "final do modulo gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "contar": "node ./source/scripts/contador.js",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cleverton Rocha",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.80.6"
+  }
+}
