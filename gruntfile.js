@@ -105,6 +105,6 @@ module.exports = function (grunt) {
 
   //CHAMA TAREFA
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('build', ['less', 'uglify', 'htmlmin', 'replace', 'clean']);
+  grunt.registerTask('build', ['less:production', 'uglify', 'htmlmin', 'replace:dist', 'clean']);
 
 };
